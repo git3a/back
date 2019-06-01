@@ -19,6 +19,6 @@ from testmodel import insertdata
 from testmodel import getdata
 urlpatterns = [
     path('admin/', admin.site.urls),
-	path('add', insertdata.insert),
+	#path('add', insertdata.insert),
 	path('get', getdata.get)
 ]
